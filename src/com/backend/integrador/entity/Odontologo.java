@@ -14,6 +14,7 @@ public class Odontologo {
     }
 
     public Odontologo(String nombre, String apellido, int matriculaOdontologo) {
+        //debe llamarse al atributo correspondiente, en este caso matriculaOdontologo
         this.numeroMatricula = numeroMatricula;
         this.nombre = nombre;
         this.apellido = apellido;
